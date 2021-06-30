@@ -22,5 +22,6 @@ rm -rf ./package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/
 #删除有问题的netdata
 #rm -rf ./package/lean/luci-app-netdata
 # Add a feed source
-sed -i '$a src-git lienol https://github.com/281677160/openwrt-package' feeds.conf.default
+sed -i '$a src-git lienol https://github.com/kenzok8/openwrt-packages.git' feeds.conf.default
+
 
